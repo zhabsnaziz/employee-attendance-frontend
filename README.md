@@ -91,7 +91,7 @@ $response = Http::get("http://127.0.0.1:8000/api/");
 
 ## 📄 Info Tambahan
 
-- Laravel 20.x
+- Laravel 12.x
 - PHP >= 8.2
 - Gunakan template `@extends('layouts.app')`
 - API dikonsumsi secara asinkron dari server Blade
