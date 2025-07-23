@@ -7,7 +7,7 @@
 <body class="bg-light">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
-        <a class="navbar-brand" href="#">Attendance</a>
+        <a class="navbar-brand" href="{{ route('home') }}">Attendance</a>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item"><a class="nav-link" href="{{ route('departments.index') }}">Departments</a></li>

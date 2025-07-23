@@ -8,8 +8,8 @@ use App\Http\Controllers\AttendanceController;
 use App\Http\Controllers\AttendanceLogController;
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('home.home');
+})->name('home');
 
 Route::resource('departments', DepartmentController::class);
 Route::resource('employees', EmployeeController::class);
